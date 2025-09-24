@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # alx-project-0x02-setup
 # Project Description
 This project is a comprehensive introduction to setting up and working with Next.js, TypeScript, and Tailwind CSS. It guides you through creating a modern web application with reusable components, routing, API integration, and proper project structure. The project covers fundamental concepts from initial setup to building interactive components and fetching data from external APIs.
@@ -106,3 +107,6 @@ An auto-check will also be in place to verify the presence of core files needed 
 If the deadline passes, you won’t be able to generate your review link—so be sure to submit on time!
 
 We’re here to support your learning journey. Happy coding! ✨
+=======
+# alx-project-0x02-setup
+>>>>>>> cf96080d0f527e46e7998381fbfe23579c714e71
