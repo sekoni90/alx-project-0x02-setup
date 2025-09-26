@@ -4,7 +4,7 @@ const HomePage: NextPage = () => {
   return (
     <div>
       <h1>Welcome to Next.js!</h1>
-      <p>This is a basic Next.js application.</p>
+      <p>This is a basic Next.js application with TypeScript and Tailwind CSS.</p>
     </div>
   );
 };
