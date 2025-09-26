@@ -9,8 +9,9 @@ const Header: React.FC<HeaderProps> = ({ title = 'ALX Project' }) => {
         <Link href="/">
           <span className="text-xl font-semibold cursor-pointer">{title}</span>
         </Link>
-        <nav className="text-sm">
-          <Link href="/"><span className="mr-4 hover:underline">Home</span></Link>
+        <nav className="text-sm space-x-4">
+          <Link href="/home" className="hover:underline">Home</Link>
+          <Link href="/about" className="hover:underline">About</Link>
         </nav>
       </div>
     </header>
