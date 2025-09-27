@@ -1,6 +1,6 @@
 // components/common/Button.tsx
 import React from 'react';
-import type { ButtonProps } from '../../interfaces';
+import  { type ButtonProps } from '../../interfaces';
 
 const sizeMap: Record<ButtonProps['size'], string> = {
   small: 'px-3 py-1 text-sm',
