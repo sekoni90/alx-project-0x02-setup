@@ -1,10 +1,21 @@
 // interfaces/index.ts
-// add your interfaces here as needed
+
+// Already created CardProps above:
 export interface CardProps {
-  title: string,
+  title: string;
   content: string;
 }
-// if you had headerprops before, leave it as is
-export interface HeaderProps {
-  title: string;
+
+// Add ButtonProps below
+export interface ButtonProps {
+  size: 'small' | 'medium' | 'large';
+  shape: 'rounded-sm' | 'rounded-md' | 'rounded-full';
+  children: React.ReactNode;
+  onClick?: () => void;
+}
+export interface ButtonProps {
+  size: 'small' | 'medium' | 'large';
+  shape: 'rounded-sm' | 'rounded-md' | 'rounded-full';
+  children: React.ReactNode;
+  onClick?: () => void;
 }
