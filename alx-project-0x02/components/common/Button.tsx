@@ -1,6 +1,6 @@
 // components/common/Button.tsx
 import React from 'react';
-import  { type ButtonProps } from '../../interfaces';
+import { type ButtonProps } from '@/interfaces';
 
 const sizeMap: Record<ButtonProps['size'], string> = {
   small: 'px-3 py-1 text-sm',
@@ -11,7 +11,7 @@ const sizeMap: Record<ButtonProps['size'], string> = {
 const Button: React.FC<ButtonProps> = ({ size, shape, children, onClick }) => {
   // Use the typed map so TS knows this is always a string
   const sizeClasses: string = sizeMap[size] ?? 'px-4 py-2 text-base';
-  const shapeClass: string = shape ?? 'rounded-md';
+  const shapeClass: string = shape ?? 'shadow-md';
 
   return (
     <button
