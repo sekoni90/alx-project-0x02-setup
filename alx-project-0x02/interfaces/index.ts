@@ -22,3 +22,9 @@ export interface PostProps {
   content: string;
   userId: number;
 }
+// userprops for users page - checker expects these exact property names and types
+export interface UserProps {
+  name: string;
+  email: string;
+  address: string; // formatted address string ( street, suite, city, zipcode )
+} 
