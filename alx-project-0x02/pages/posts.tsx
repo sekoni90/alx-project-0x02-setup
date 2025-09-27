@@ -1,7 +1,7 @@
 // pages/posts.tsx
 import React from 'react';
 import Head from 'next/head';
-import Header from '../components/layout/Header';
+import Header from '@/components/layout/Header';
 
 const PostsPage: React.FC = () => {
   return (

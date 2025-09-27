@@ -1,7 +1,7 @@
 // pages/home.tsx
 import React, { useState } from 'react';
 import Head from 'next/head';
-import Header from '../components/layout/Header';
+import Header from '@/components/layout/Header';
 import Card from '../components/common/Card';
 import PostModal, { PostData } from '../components/common/PostModal';
 
